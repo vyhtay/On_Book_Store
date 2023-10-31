@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: linear-gradient(#20c5d8,#ff38dc);
+        color: aliceblue;
+      
+    }
+    
+    .container-pai{
+    justify-content: center;
+    align-items: center;
+    border: 50px;
+    }
+    .forms {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #login{
+        width: 6px;
+        align-items: center;
+        margin: 6px;
+        padding: 20px;
+        width: 300px;
+        justify-content: center;
+        transform: translatex(80px);
+        border-radius: 40px;
+        background-color: #8e4fd3;
+        border: 2px white;
+        color: aliceblue;
+        
+    }
+    #cadastro{ align-items: center;
+        margin: 6px;
+        padding: 20px;
+        width: 300px;
+        justify-content: center;
+        transform: translatex(80px);
+        border-radius: 40px;
+        background-color: #8e4fd3;
+        border: #b23fb3;
+        color: aliceblue;
+    }
+    
+    h1{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px;
+        font-size: 75px;
+       
+    }
+   
