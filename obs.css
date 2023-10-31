@@ -17,7 +17,12 @@
     .container-pai{
     justify-content: center;
     align-items: center;
-    border: 50px;
+    border-radius: 10%;
+    background-color:rgba(106, 220, 222, 0.582);
+    padding: 50px; 
+    box-shadow: 60px -16px rgba(0, 128, 128, 0.251);
+    border: solid;
+    border-style: double;
     }
     .forms {
         flex-direction: column;
