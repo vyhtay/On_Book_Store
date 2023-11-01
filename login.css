@@ -24,16 +24,16 @@ body{
 
 #on{
     font-size: 80px;
-   transform: translate(-430px,0px);
+   transform: translate(-700px,0px);
 }
 #book{
     font-size: 80px;
-    transform: translate(-260px, -50px);
+    transform: translate(-500px, -50px);
 
 }
 #store{
     font-size: 80px;
-    transform: translate(-40px, -100px);
+    transform: translate(-300px, -100px);
 }
 
 #email{
@@ -110,11 +110,15 @@ input::placeholder {
   #esqueci{
     transform: translate(-129px );
     color: #ffffff;
+    text-decoration: none;
   }
 #botao:hover{
-    background-color: #ff38dc;
+    background-color: ;
     transition: 0.5s;
     opacity:0.7;
     transition: 500ms linear;
 }
-  
+#titulo{
+
+transform: translate(200px);
+}

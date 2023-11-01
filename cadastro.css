@@ -1,0 +1,94 @@
+
+.formulario-cadastro {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formulario-cadastro input[type="text"],
+.formulario-cadastro input[type="password"],
+.formulario-cadastro input[type="email"],
+.formulario-cadastro button{
+    align-items: center;
+    margin: 6px;
+    padding: 20px;
+    width: 300px;
+    justify-content: center;
+  
+    border-radius: 40px;
+    background-color: #8e4fd3;
+    border: #b23fb3;
+    color: aliceblue;
+
+    width: 100%;
+    padding: 20px;
+    margin: 6px 0;
+    
+}
+#telefone{
+    align-items: center;
+        margin: 6px;
+        padding: 20px;
+        width: 300px;
+        justify-content: center;
+
+        border-radius: 40px;
+        background-color: #8e4fd3;
+        border: #b23fb3;
+        color: aliceblue;
+
+    width: 100%;
+    padding: 20px;
+    margin: 6px 0;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: linear-gradient(#20c5d8,#ff38dc);
+        color: aliceblue;
+      
+}
+input::placeholder {
+    color: rgb(255, 255, 255);
+    text-align: center;}
+
+.formulario-cadastro{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color:rgba(106, 220, 222, 0.582);
+    transform: translate(10px,-60px);
+    box-shadow: 60px -16px rgba(0, 128, 128, 0.251);
+    border: solid;
+    border-style: double;
+
+   
+}
+
+#on{
+    font-size: 80px;
+    transform: translate(-500px,0px);
+}
+
+#book{
+    font-size: 80px;
+    transform: translate(-380px, -50px);
+}
+
+#store{
+    font-size: 80px;
+    transform: translate(-180px, -100px);
+}
