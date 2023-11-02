@@ -113,12 +113,11 @@ input::placeholder {
     text-decoration: none;
   }
 #botao:hover{
-    background-color: ;
+    
     transition: 0.5s;
     opacity:0.7;
     transition: 500ms linear;
 }
 #titulo{
-
 transform: translate(200px);
 }

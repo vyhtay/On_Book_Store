@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+body{
+        height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    display: block;
+    padding: 20px 5px;
+    border-bottom: 2.5px solid;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+ul a:hover{
+    transition: 0.6s;
+    background-color: #091e85af;
+    color:rgb(0, 0, 0);
+}
+
+img{
+    width: 40px;
+}
+
+input[type="checkbox"]{
+    display: none;
+
+}
+.menu{
+    background-image: linear-gradient(#20c6d8dc,#ff38dbfe);
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: -350px;
+    transition: all 0.5s;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+ul{
+    top: 50px;
+   position: absolute;
+   width: 100%;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+h2{
+    font-size: 30px;
+    padding: 30px;
+    margin: 10px;
+    font-family: popins;
+    color: azure;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(to right, #20c5d8,#ff38dc );
+}
+
+
+.nav_bar{
+   
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index:1 ;
+    border-bottom: 3px solid rgb(146, 0, 225);
+}
